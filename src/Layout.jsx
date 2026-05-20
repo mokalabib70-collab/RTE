@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 
-import Logo from "./assets/logo.png";
-import DP   from "./assets/dp.png";
+import Logo from './assets/logo.png';
+import DP   from './assets/dp.png';
 
 // ─────────────────────────── Icons ───────────────────────────
 const DashboardIcon = () => (
