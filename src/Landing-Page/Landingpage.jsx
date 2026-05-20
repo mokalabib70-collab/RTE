@@ -119,12 +119,16 @@ const App = () => {
               ))}
               <hr className="border-gray-100" />
               <div className="flex flex-col gap-3">
-                <button className="w-full py-3 text-sm font-semibold border border-[#1C5332] text-[#1C5332] rounded-md">
-                  Login
-                </button>
-                <button className="w-full py-3 text-sm font-semibold bg-[#1C5332] text-white rounded-md">
-                  Sign Up
-                </button>
+               <Link to="/auth" state={{ page: "login" }} onClick={() => setIsMenuOpen(false)}>
+  <div className="w-full py-3 text-sm font-semibold border border-[#1C5332] text-[#1C5332] rounded-md text-center">
+    Login
+  </div>
+</Link>
+               <Link to="/auth" state={{ page: "signup" }} onClick={() => setIsMenuOpen(false)}>
+  <div className="w-full py-3 text-sm font-semibold bg-[#1C5332] text-white rounded-md text-center">
+    Sign Up
+  </div>
+</Link>
               </div>
             </div>
           </div>
