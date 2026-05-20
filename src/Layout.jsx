@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Outlet, useNavigate, useLocation } from "react-router-dom";
 
-import Logo from './assets/logo.png';
+import Logo from './assets/Logo.png';
 import DP   from './assets/dp.png';
 
 // ─────────────────────────── Icons ───────────────────────────
